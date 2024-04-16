@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:team4_alterra/pages/favorites/screeens/favorites_pages.dart';
 import 'package:team4_alterra/pages/main/main_view.dart';
 
 import 'theme/themes.dart';
@@ -13,9 +14,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: AppTheme.themeData,
-      home: const MainView(),
+      home: const FavoritesPages(),
     );
   }
 }

@@ -5,6 +5,7 @@ class AppTheme {
   static ThemeData themeData = ThemeData(
     useMaterial3: true,
     scaffoldBackgroundColor: backgroundColor,
+    focusColor: primary,
     colorSchemeSeed: white,
     textSelectionTheme: TextSelectionThemeData(
       cursorColor: black,

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:team4_alterra/pages/main/main_view.dart';
+import 'package:team4_alterra/pages/shop/shop_view.dart';
 
 import 'theme/themes.dart';
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: AppTheme.themeData,
-      home: const MainView(),
+      home: const ShopView(),
     );
   }
 }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:team4_alterra/theme/colors.dart';
 import 'package:team4_alterra/theme/text_styles.dart';
-import 'package:team4_alterra/widgets/product_view.dart';
+import 'package:team4_alterra/pages/bag/widgets/product_view.dart';
 
 class MyBagPage extends StatefulWidget {
   const MyBagPage({super.key});

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:team4_alterra/screens/bag_screen.dart';
+import 'package:team4_alterra/pages/bag/screens/bag_screen.dart';
 void main() {
   runApp(const MyApp());
 }

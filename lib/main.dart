@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:team4_alterra/pages/shop/shop_view.dart';
 
+
 import 'theme/themes.dart';
 
 void main() {
@@ -13,9 +14,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: AppTheme.themeData,
       home: const ShopView(),
+
     );
   }
 }

@@ -34,6 +34,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
+  flutter_rating_bar: ^4.0.1
 
 dev_dependencies:
   flutter_test:
@@ -55,8 +56,8 @@ flutter:
     - assets/images/
     - assets/icons/
   fonts:
-    - family: Metropolis
-      fonts:
+   - family: Metropolis
+     fonts:
         - asset: assets/fonts/Metropolis-Regular.otf
           weight: 400
         - asset: assets/fonts/Metropolis-Medium.otf

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:team4_alterra/pages/profile/screens/profile_screen.dart';
+import 'package:team4_alterra/pages/shop/shop_view.dart';
+
 
 import 'theme/themes.dart';
 
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: AppTheme.themeData,
-      home: const ProfileScreen(),
+      home: const ShopView(),
+
     );
   }
 }
